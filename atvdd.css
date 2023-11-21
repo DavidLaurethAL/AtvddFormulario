@@ -1,0 +1,30 @@
+section{
+    max-width: 400px;
+    margin: 300px auto ;
+    border-radius: 16px;
+    color: lightgreen;
+    background-color: blue;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+input{
+    margin-bottom: 10px;
+}
+enviar{
+    margin-top: 10px;
+    background-color: blueviolet;
+}
+body{
+    transition: background-color 2s, color 2s;
+}
+
+.darkmode{
+    background-color: black;
+    color: white;
+}
+.preto{
+    text-align: justify;
+}
